@@ -13,5 +13,5 @@ class MyClient(discord.Client):
         if guild.system_channel is not None:
             print(emoji.emojize(f'{member}, você está atrasado para a reunião, meu caro :wine_glass::moyai:'))
 
-client = MyClient('intents')
-client.run('MTA1MDc0Nzg4NTc4NTk4OTE1MQ.G1ngIR.P-qy6Ic5Bea06pcKxga8DNjchUqiepNiPeU2pw')
+client = MyClient()
+client.run('your discord bot token goes here')
